@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+	<meta charset="utf=8">
+	<title> My First HTML Form </title>
+</head>
+<body>
+    User Login
+	<form method="POST" action="http://requestb.in/1bl44um1">
+    	<p>
+        	<label for="username">Username</label>
+        	<input id="username"  type="text" placeholder="Enter username here">
+    	</p>
+    	<p>
+        	<label for="password">Password</label>
+        	<input id="password" type="password" placeholder="Enter password here">
+    	</p>
+   	 	<p>
+            <button type="submit">Login</button>
+    	</p>
+	</form>
+    Compose an Email
+    <form method="POST" action="http://requestb.in/1bl44um1">
+        <p>
+            <label for"#to">To:</label>
+            <input type="text" id="to" name="to">
+        </p>
+        <p>
+            <label for="#from">From:</label>
+            <input type="text" id="from" name="from">
+        </p>
+        <p>
+            <label for="#subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+        </p>
+        <p>
+            <textarea id="email_body" name="email_body" rows="10" cols="40">Content here</textarea>
+        </p>
+        <p>
+        <button type="submit">Submit</button>
+        </p>
+            <label for="#save_copy">Would you like to save a copy to your sent folder?</label>
+        <input type="checkbox" name="save_copy" id="save_copy" value="Yes" checked>
+    </form>
+    <form method="POST" action="http://requestb.in/1bl44um1">
+    Multiple Choice Test
+    <p>1)What is your favorite answer choice?</p>
+    <label>
+        <input type="radio" name="q1" value="A">A
+    </label>
+    <label>
+        <input type="radio" name="q1" value="B">B
+    </label>
+    <label>
+        <input type="radio" name="q1" value="C">C
+    </label>
+    <p>2)What is your favorite thing on a person?</p>
+    <label>
+        <input type="radio" name="q2" value=="donger">Donger
+    </label>
+    <label>
+        <input type="radio" name="q2" value="2dongers">Two Dongers
+    </label>
+    <label>
+        <input type="radio" name="q2" value="3dongers">Three Dongers
+    </label>
+    <input type="submit">
+    </form>
+    <form method="POST" action="http://requestb.in/1bl44um1">
+    Select Testing
+    <p>
+    <label for="#binaryquestion">Do you enjoy running?</label>
+    <select id="binaryquestion" name="binaryquestion">
+        <option value=1>Yes</option>
+        <option value=2>No</option>
+    </select>
+    </p>
+    <p>
+    <label for="#multiplequestion">Which is your favorite food?</label>
+    <select id="multiplequstion" name="multiplequestion[]" multiple>
+        <option>Hamburger</option>
+        <option>Hot dog</option>
+        <option>Pizza</option>
+        <option>Garbage</option>
+    </select>
+    </p>
+    <button type="submit">Submit</button>
+</body>
+</html>

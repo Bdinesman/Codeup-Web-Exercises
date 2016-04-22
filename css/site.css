@@ -1,0 +1,26 @@
+h1,h2{
+	color:blue;
+	font-weight:bold;
+	text-decoration:underline;
+	font-family:monospace;
+}
+.fancy-header{
+	color:blue;
+	text-decoration:underline;
+}
+#background{
+	background-color:rgba(233, 149, 242, 0.24);
+}
+.regular-text{
+	font-family:monospace;
+}
+ol{
+	list-style-type:cjk-decimal;
+}
+ul{
+	list-style-type: '☆';
+}
+li,p{
+	font-family:monospace;
+	font-size:.25em;
+}
